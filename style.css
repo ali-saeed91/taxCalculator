@@ -1,0 +1,525 @@
+body{
+    background-color: #FFFFFF;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+	margin: 0;
+    color: black;
+    
+}
+
+
+.container3{
+    margin-left:3rem ;
+    margin-right:3rem ;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+	background: rgba(255, 255, 255, 0.3);
+    box-shadow: 5px 4px 4px rgba(0, 0, 0, 0.25);
+    
+}
+#showcase{
+    display: flex;
+	background: url("image.png");
+    mix-blend-mode: normal;
+    background-size: cover;
+	background-position: center right;
+    background-repeat: no-repeat;
+    z-index: 1;
+	
+    position: absolute;
+    width: 100%;
+    height: 534px;
+	text-align: center;
+    padding-top: 3rem;;
+}
+h1{
+    position:relative ;
+  
+    z-index: -1 ;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    margin-top: 70px;
+    
+    color: #020074;
+}
+
+#text{
+    font-family: 'Aksara Bali Galang';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 14px;
+    /* or 70% */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    color: #000000;
+}
+.btn-1{
+    /* position: relative; */
+    width: 274px;
+    height: 73px;
+    
+    display: inline-flex;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    
+    /* margin-left: 20%; */
+    margin: 0.3rem;
+    
+}
+input[type=text ] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    border: none;
+  }
+.btn-2{
+    /* position: relative; */
+    width: 274px;
+    height: 73px;
+    
+    display: inline-flex;
+    background: #FFFFFF;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    /* padding-top:0.8rem ;
+    margin-top: 4rem; */
+    /* margin-left: %; */
+    margin: 0.3rem;
+  }
+.btn-2 select{
+    border: none;
+}
+.btn-3 {
+    /* position: relative; */
+    width: 274px;
+    height: 73px;
+    
+    display: inline-flex;
+    background: #020074;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    /* margin-top: 4rem; */
+    margin: 0.3rem;
+    
+}
+#calculate {
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 14px;
+    /* or 64% */
+    
+    color: #FFFFFF;
+    border: none;
+    background: #020074;
+    padding-left: 30%;
+
+}
+.row {
+    margin-top: 50px;
+}
+h2{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #7C0070;
+    margin-top: 600px;
+    margin-bottom: 1.5rem;
+}
+.slabs li{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1px;
+
+    color: #000000;
+}
+#text2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1px;
+
+    color: #000000;
+}
+ul {
+    list-style-type: none /* Remove default bullets */
+  }
+li {
+    list-style-type: none /* Remove default bullets */
+  }
+  
+.container3  ul li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #020074;; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+    margin-right: 0.5em;
+  }
+h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #7C0070;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+.navbar{
+    background:linear-gradient(165.96deg, #020074 9.73%, #7C0070 75.78%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+    padding-right: 0.5rem;
+    color: #FFFFFF;
+    mix-blend-mode: normal;   
+}
+.nav-item{
+    padding-right: 50px;
+}
+
+h4{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+
+    display: inline-block;
+    align-items: left;
+    text-align: justify;
+    justify-content: left;
+    color: #7C0070;
+    padding-top: 2rem;
+    /* padding-left: 4rem; */
+
+}
+.container1{
+    display: flex;
+    width: 100%;
+    background: url("contact.png");
+    position: absolute;
+    height: 544px;
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 10px;
+    /* z-index: 1; */
+}
+h5{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    /* identical to box height, or 120% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #7C0070;
+}
+#text3{
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+
+    display:inline-block;
+    align-items: left ;
+    justify-content: left;
+    color: #000000;
+    /* padding-left:7rem; */
+}
+#text4{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 36px;
+    /* or 164% */
+
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    text-indent: 1px;
+    justify-content: center;
+    color: #000000;
+    margin-top: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-bottom: 4rem;
+    
+}
+#main-footer{
+	background: linear-gradient(180deg, #020074 0%, #7C0070 100%);
+    color: #FFFFFF;
+    display: flex;
+	text-align: center;
+    justify-content: center;
+	padding: 10px;
+    height: 230px;
+    margin-bottom: none;
+}
+#copyright{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1rem;
+    color: #FAFAFA;
+
+}
+a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 36px;
+    /* identical to box height, or 138% */
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #FAFAFA;
+    
+}
+.counter-card{
+    background-color:white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+                  
+}
+footer{  
+    background: linear-gradient(180deg, #020074 0%, #7C0070 100%);
+    color: #FFFFFF;
+    text-align: center;
+    float: center;
+    padding: 40px 0;
+    justify-content: center;
+    margin-bottom: none;
+}
+
+.social-fb {
+    
+    overflow: hidden;
+    background-color:white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+    margin-right: 5px;
+    display: inline-block;
+    
+}
+
+.social-fb img{
+    
+    padding-top: 5px;
+}
+
+.social-tw {
+    overflow: hidden;
+    background-color:white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-left: 5px;
+    display: inline-block;
+}
+
+.social-tw img{
+     
+    padding-top: 5px;
+}
+.container-box{
+    background: #FFFFFF;
+    box-shadow: 8px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flexbox;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height:max-content;
+    /* position:relative; */
+    padding-left: 1rem;
+    padding-top:1rem;
+    
+    
+    
+    
+}
+#Ask{
+    background: #020074;
+    border: 2px solid #476CEE;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    width:340px;
+    position: relative;
+    margin-bottom: 1rem;
+    
+    
+}
+.form-control2{
+    background: #FFFFFF;
+    border: 2px solid rgba(174, 174, 174, 0.92);
+    border-radius: 5px;
+    box-sizing: border-box;
+    position: relative;
+    width:340px;
+    margin-bottom: 0.2rem;
+    
+}
+.form-control3{
+    background: #FFFFFF;
+    border: 2px solid rgba(174, 174, 174, 0.92);
+    border-radius: 5px;
+    width:340px;
+    box-sizing: border-box;
+    position: relative;
+    
+}
+#hidden{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 36px;
+    /* or 120% */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    margin-top: -2rem;
+
+color: #7C0070;
+}
+@media screen and (max-width: 768px) {
+    #text3 {
+      display: none;
+    }
+}
+@media screen and (max-width: 600px) {
+    h4 {
+        display: none;
+    }
+}
+@media screen and (max-width: 768px) {
+    h4 {
+        display: none;
+        
+    }
+}
+@media screen and (max-width: 768px) {
+    .container-box {
+        width:320px;
+        justify-content: center;
+        padding-right: 2rem;
+        margin-bottom: 10rem;
+        margin-top: -5rem;
+        margin-right: 5rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .form-control2 {
+        width:300px;
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .form-control3 {
+        width:300px;
+    }
+}
+@media screen and (max-width: 768px) {
+    #Ask {
+        width:300px;
+    }
+}
+@media screen and (min-width: 768px) {
+    #hidden {
+        display: none;
+        
+    }
+}
+@media screen and (min-width: 472px) {
+    .container-box {
+        display: flexbox;
+        padding-right: 1rem;
+        
+        
+    }
+}
